@@ -3,6 +3,6 @@ import scrapy
 
 
 class DictionaryItem(scrapy.Item):
-    letter = scrapy.Field()
-    delimiter = scrapy.Field()
+    word = scrapy.Field()
+    # delimiter = scrapy.Field()
     translation = scrapy.Field()
