@@ -8,7 +8,7 @@ class UzbDictSpider(scrapy.Spider):
     name = "uzbdictspider"
     allowed_domains = ["www.uzbek-dictionary.com"]
     start_urls = (
-        'http://www.uzbek-dictionary.com/',
+        'http://www.uzbek-dictionary.com/index.php?trans_text=%s&trans_lang=uz_en',
     )
 
     def start_requests(self):
